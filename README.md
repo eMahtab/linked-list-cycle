@@ -31,7 +31,7 @@ Explanation: There is no cycle in the linked list.
 Can you solve it using O(1) (i.e. constant) memory?
 
 
-## Implementation : (Fast & Slow will eventually meet :handshaking: )
+## Implementation : (Fast & Slow will eventually meet :handshake: )
 
 ```java
 /**
