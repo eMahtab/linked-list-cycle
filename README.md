@@ -31,7 +31,7 @@ Explanation: There is no cycle in the linked list.
 Can you solve it using O(1) (i.e. constant) memory?
 
 
-## Implementation :
+## Implementation : (Fast & Slow will eventually meet :handshaking: )
 
 ```java
 /**
@@ -67,5 +67,6 @@ public class Solution {
 ```
 
 # References :
-https://leetcode.com/articles/linked-list-cycle
+1. https://leetcode.com/articles/linked-list-cycle
+2. https://www.youtube.com/watch?v=6OrZ4wAy4uE
 
