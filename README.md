@@ -30,8 +30,39 @@ Explanation: There is no cycle in the linked list.
 **Follow up:**
 Can you solve it using O(1) (i.e. constant) memory?
 
+## Implementation 1 : Time : O(n), Space : O(n)
+```java
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if(head == null)
+            return false;
+        Set<ListNode> set = new HashSet<>();
+        ListNode current = head;
+        while(current != null) {
+            if(set.contains(current))
+                return true;
+            set.add(current);
+            current = current.next;
+        }
+        return false;
+    }
+}
+```
 
-## Implementation : (Fast & Slow will eventually meet :handshake: )
+
+
+## Implementation 2: (Fast & Slow will eventually meet :handshake: )
 
 ```java
 /**
